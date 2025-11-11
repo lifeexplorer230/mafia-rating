@@ -48,11 +48,6 @@ class InputHandler:
 
     def get_players(self) -> List[Player]:
         """Получить список игроков от пользователя"""
-        print("=" * 60)
-        print("СИСТЕМА РЕЙТИНГА МАФИИ v2")
-        print("=" * 60)
-        print()
-
         players = []
         REQUIRED_PLAYERS = 10
 
